@@ -1,4 +1,7 @@
 ```C++
+int px[] = {-1, 0, 1, 0};
+int py[] = {0, -1, 0, 1};
+
 void DFS(int x, int y)
 {
     if(x==goal_x&&y==goal_y)

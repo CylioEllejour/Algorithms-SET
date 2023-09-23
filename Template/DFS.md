@@ -6,7 +6,6 @@ void DFS(int x, int y)
 {
     if(x==goal_x&&y==goal_y)
     {
-        flag = 1;
         return;
     }
     // 遍历四个方向

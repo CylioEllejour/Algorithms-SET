@@ -39,8 +39,8 @@ void DFS(int x, int y)
 int main()
 {
     cin >> n >> m;
-    goal_x = n;
-    goal_y = m;
+    goal_x=n;
+    goal_y=m;
     for (int i = 1; i <= n; i++)
     {
         for(int j= 1;j<=m;j++)
